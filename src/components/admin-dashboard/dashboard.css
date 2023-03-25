@@ -1,0 +1,12 @@
+.right_side {
+    display: grid;
+    grid-template-areas: 
+    'profit sales'
+    'payments transaction';
+    padding: 15px;
+    gap: 10px;
+}
+.profit { grid-area: profit;}
+.sales { grid-area: sales;}
+.payments { grid-area: payments;}
+.transaction { grid-area: transaction;}
